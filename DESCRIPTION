@@ -1,0 +1,22 @@
+Package: ggupset
+Title: Clean, Modifiable Upset Plots Using ggplot2 and Patchwork
+Version: 0.1.0
+Authors@R: 
+    person("First", "Last", email = "you@email.com", role = c("aut", "cre"))
+Description: Builds upset plots as independently-themeable ggplot2 panels
+    assembled with patchwork. Each panel (intersection bars, membership
+    matrix, optional set-size bars) is a plain ggplot2 object, making
+    aesthetic customization consistent with standard ggplot2 idioms.
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.1
+Imports:
+    ggplot2 (>= 3.4.0),
+    patchwork (>= 1.1.0),
+    dplyr (>= 1.0.0),
+    tidyr (>= 1.0.0),
+    rlang (>= 1.0.0)
+Suggests:
+    testthat (>= 3.0.0),
+    scales
+Config/testthat/edition: 3
