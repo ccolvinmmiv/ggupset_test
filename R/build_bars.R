@@ -97,10 +97,11 @@ build_intersection_bars <- function(upset_data,
   if (show_counts) {
     p <- p + ggplot2::geom_text(
       ggplot2::aes(label = .data$size),
-      vjust  = -0.4,
-      size   = count_size,
-      color  = count_color,
-      family = base_family
+      vjust        = -0.4,
+      size         = count_size,
+      color        = count_color,
+      family       = base_family,
+      check_overlap = TRUE
     )
   }
 

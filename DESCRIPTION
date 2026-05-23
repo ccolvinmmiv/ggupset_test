@@ -20,3 +20,4 @@ Suggests:
     testthat (>= 3.0.0),
     scales
 Config/testthat/edition: 3
+LazyData: true
