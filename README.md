@@ -4,7 +4,7 @@ Clean, modifiable upset plots built on ggplot2 and patchwork.
 
 ## Why ggupset?
 
-ComplexUpset works, but customising aesthetics means fighting its internal faceting machinery — theme calls conflict, adding annotations breaks layout, and nothing behaves like a normal ggplot2 object.
+ComplexUpset works, but customising aesthetics means fighting its internal faceting machinery, theme calls conflict, adding annotations breaks layout, and nothing behaves like a normal ggplot2 object.
 
 `ggupset` takes a different approach: each panel (intersection bars, dot matrix, optional set-size bars) is a **plain ggplot2 object**, assembled with patchwork. This means every ggplot2 idiom just works.
 
@@ -12,7 +12,7 @@ ComplexUpset works, but customising aesthetics means fighting its internal facet
 
 ```r
 # install.packages("remotes")
-remotes::install_github("yourusername/ggupset")
+remotes::install_github("ccolvinmmiv/ggupset")
 ```
 
 ## Quick start
